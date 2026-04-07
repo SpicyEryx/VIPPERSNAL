@@ -1750,11 +1750,11 @@ def process_recharge_amount(msg):
         
         user_id = msg.from_user.id
         
-        caption = f"""<blockquote>💳 <b>UPI Payment Details</b>
+        caption = f"""<blockquote>💳 <b>𝙁𝙪𝙡𝙡 𝙎𝙖𝙛𝙚 𝘼𝙣𝙙 𝙎𝙚𝙘𝙪𝙧𝙚</b> 🤍
 
-💰 Amount: {format_currency(amount)}/n/n
-🌐 𝘾𝙡𝙞𝙘𝙠 𝙊𝙣 𝙏𝙝𝙚 𝙇𝙞𝙣𝙠 𝘼𝙣𝙙 𝙋𝙖𝙮 👇🏻/nhttps://razorpay.me/@nitinkumar3697
-</blockquote>/n
+💰 Amount: {format_currency(amount)}\n\n
+🌐 𝘾𝙡𝙞𝙘𝙠 𝙊𝙣 𝙏𝙝𝙚 𝙇𝙞𝙣𝙠 𝘼𝙣𝙙 𝙋𝙖𝙮 👇🏻\n https://razorpay.me/@nitinkumar3697
+</blockquote>\n
 
 <blockquote>📋 <b>Instructions:</b>
 1. Tap and pay send {format_currency(amount)} to above Link
